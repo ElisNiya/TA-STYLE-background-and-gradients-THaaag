@@ -1,0 +1,33 @@
+.bg{
+    background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)),
+    url(dominik-luckmann-ZSe3VBOk6fw-unsplash.jpeg) 50% 50% no-repeat;
+    height:700px;
+}
+
+h1{
+    color: white;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 200px;
+    height:150px;
+    background-color: gray;
+    border-radius: 5%;
+    margin: 15px;
+}
+.linear{
+background-image: linear-gradient(to right, white, black);
+}
+.radial{
+    background-image: radial-gradient( white, black);
+    }
+
+.big{
+width: 100%;
+object-fit: contain;
+}
